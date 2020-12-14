@@ -23,3 +23,6 @@ ADVERTENCIA: Por un error en el que empece a trabajar en master hice un revert y
 11      push origin DatosPersonales
 12      ----------------             DatosPersonales tendria que se recursiva porque el ultimo commit no pertenece a master, sin embargo Antecedentes seria fast-forward
 13      commit -m "Paso 13"
+14      merge Antecedentes           Hubo conflictos en bitacora, ya que se ha editado en ambas ramas
+15      merge DatosPersonales        Hubo conflictos en bitacora, ya que se ha editado en ambas ramas
+16      commit -m "Paso 16"
