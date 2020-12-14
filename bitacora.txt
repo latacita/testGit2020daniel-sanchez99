@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+06      checkout master              Se vuelve aqui porque es el mismo commit que se uso para crear la otra rama
+07a     branch Antecedentes
+07b     checkout Antecedentes
+08      creado y editado antecedentes.txt
+09      commit -m "Paso 09"
