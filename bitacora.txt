@@ -1,8 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Sánchez Díez, Daniel                 %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+01      clone
+02a     branch DatosPersonales
+02b     checkout DatosPersonales
+03      edicion de archivo PlanVacunacion
