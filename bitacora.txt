@@ -26,3 +26,6 @@ ADVERTENCIA: Por un error en el que empece a trabajar en master hice un revert y
 14      merge Antecedentes           Hubo conflictos en bitacora, ya que se ha editado en ambas ramas
 15      merge DatosPersonales        Hubo conflictos en bitacora, ya que se ha editado en ambas ramas
 16      commit -m "Paso 16"
+17      tag "FusionTerminada"
+18      push origin master --tags
+19      commit -m "Paso 19"
