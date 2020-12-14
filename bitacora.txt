@@ -6,6 +6,11 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+06      checkout master              Se vuelve aqui porque es el mismo commit que se uso para crear la otra rama
+07a     branch Antecedentes
+07b     checkout Antecedentes
+08      creado y editado antecedentes.txt
+09      commit -m "Paso 09"
 10      checkout master              Ya que no hay ningun cambio pendiente de commit nos vale con un checkout a master, no hace falta stash
 11      push origin DatosPersonales
 12      ----------------             DatosPersonales tendria que se recursiva porque el ultimo commit no pertenece a master, sin embargo Antecedentes seria fast-forward
